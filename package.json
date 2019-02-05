@@ -1,0 +1,26 @@
+{
+  "name": "ieproject2018",
+  "version": "1.0.0",
+  "description": "Project for Internet Engineering 2018.",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --inspect=9229 -i \"*.test.js\" ."
+  },
+  "author": "Adrian Mazurek",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.10",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
